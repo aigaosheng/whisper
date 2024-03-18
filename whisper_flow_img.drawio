@@ -1,0 +1,95 @@
+<mxfile host="65bd71144e">
+    <diagram id="cweylHxTYU4c6cNjuabH" name="Page-1">
+        <mxGraphModel dx="1126" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Flow of Fine-tuning Whisper Speech&amp;nbsp; Recognition Model&lt;br&gt;(speech to text)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;comic=1;html=1;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;" parent="1" vertex="1">
+                    <mxGeometry x="221.5" y="30" width="440" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;strokeWidth=2;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;" parent="1" source="3" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Transformer &lt;br style=&quot;font-size: 16px;&quot;&gt;Encoder" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;strokeWidth=2;strokeColor=#66B2FF;glass=0;sketchStyle=comic;labelBorderColor=none;html=1;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;arcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="162.22" width="120" height="77.78" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;strokeWidth=2;" parent="1" source="6" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Mel-spectrum extractor&amp;nbsp;&lt;br&gt;(frequency band: 80/128)" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;strokeWidth=2;strokeColor=#66B2FF;glass=0;sketchStyle=comic;labelBorderColor=none;html=1;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;arcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="162.22" width="120" height="77.78" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;strokeWidth=2;" parent="1" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="201" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="strokeColor=none;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;glass=0;labelBorderColor=none;sketch=1;sketchStyle=comic;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="53" y="165.22" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font color=&quot;#000000&quot;&gt;Label: text &lt;br&gt;description&lt;/font&gt;" style="editableCssRules=.*;html=1;fontColor=#999999;shape=image;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=20;part=1;points=[];imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMTggMjAiPiYjeGE7CTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+JiN4YTsJLnN0MHtmaWxsOiM0Mjg1ZjQ7fSYjeGE7CS5zdDF7ZmlsbDojNjY5ZGY2O30mI3hhOwk8L3N0eWxlPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik04IDBoMnYyMEg4ek00IDZoMnY4SDR6bTggMGgydjhoLTJ6TTAgM2gydjE0SDB6bTE2IDBoMnYxNGgtMnoiLz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNOCAwaDJ2MTBIOHpNNCA2aDJ2NEg0em04IDBoMnY0aC0yek0wIDNoMnY3SDB6bTE2IDBoMnY3aC0yeiIvPiYjeGE7PC9zdmc+;glass=0;labelBorderColor=none;sketch=1;sketchStyle=comic;strokeColor=#66B2FF;strokeWidth=1;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;" parent="7" vertex="1">
+                    <mxGeometry width="27" height="30" relative="1" as="geometry">
+                        <mxPoint x="16" y="15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Trainiing data&lt;br&gt;- audio - text pair" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;labelBorderColor=none;sketch=1;sketchStyle=comic;strokeWidth=1;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="100" width="135" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;strokeWidth=2;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;" parent="1" source="12" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;strokeWidth=2;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="12" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="588" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="630" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Pretrained model" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;glass=0;labelBorderColor=none;sketch=1;sketchStyle=comic;strokeColor=#66B2FF;strokeWidth=2;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="403" y="280" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;strokeWidth=2;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="14" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="720" y="380" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="720" y="200"/>
+                            <mxPoint x="720" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Predicted text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Julee;" parent="24" vertex="1" connectable="0">
+                    <mxGeometry x="0.354" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-35" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Transformer &lt;br style=&quot;font-size: 16px;&quot;&gt;Decoder" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;strokeWidth=2;strokeColor=#66B2FF;glass=0;sketchStyle=comic;labelBorderColor=none;html=1;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;arcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="569" y="162.22" width="120" height="77.78" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;strokeWidth=2;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;" parent="1" source="21" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="min(Loss(truth, predict))&lt;br&gt;- Gradient learner&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Julee;strokeColor=#66B2FF;rounded=1;sketch=1;curveFitting=1;jiggle=2;strokeWidth=2;glass=0;labelBorderColor=none;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;arcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="380" width="163" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;strokeWidth=2;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;exitX=0.583;exitY=1.034;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="450" as="sourcePoint"/>
+                        <mxPoint x="360" y="400" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Ground truth text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Julee;" parent="25" vertex="1" connectable="0">
+                    <mxGeometry x="0.1038" y="1" relative="1" as="geometry">
+                        <mxPoint x="46" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Fine-tuned model" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;glass=0;labelBorderColor=none;sketch=1;sketchStyle=comic;strokeColor=#66B2FF;strokeWidth=2;fontFamily=Julee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJulee;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="396.5" y="480" width="90" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
